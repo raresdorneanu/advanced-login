@@ -17,6 +17,13 @@ h3{
 }
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
+.footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+       color:SlateBlue;
+   }  
 
 </style>  
 </head>
@@ -24,8 +31,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <h3>..Welcome..</h3>
 <a href="signup"><h4>Sign Up</h4></a><br>
 <a href="login"><h4>Login</h4></a>
-<h1>Hello</h1>
 </body>
+
+<footer class="footer">  
+    
+     &copy; <b>Dorneanu Rares - Constantin</b>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &copy; <b>Ciufudean Stefan</b>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &copy; <b>Alarjawi omar</b>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &copy; <b>Alkhdhairi Aya</b>
+   
+</footer>
 </html>
 
 
