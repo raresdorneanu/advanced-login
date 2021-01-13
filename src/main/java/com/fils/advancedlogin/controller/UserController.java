@@ -50,11 +50,6 @@ public class UserController {
         return mv;
     }
 
-    @GetMapping("/dummy")
-    public String dummy() {
-        return "dummy";
-    }
-
     @PostMapping("/login")
     public String login_user(@RequestParam("username") String username, @RequestParam("password") String password,
                              @RequestParam("answer") String answer, HttpSession session, ModelMap modelMap) {
